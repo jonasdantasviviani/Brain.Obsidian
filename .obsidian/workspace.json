@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "e374c3abe7c92b1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6e51e1210543e05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "600a229fc6d0098e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "59fcc7ac46aff0dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f8805f79b960bc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "545df0ee78c06894",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "bc35ba159f9193c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "6a7058524b3c0f3f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "50df2d5e393995cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "827d31d43d5e6a20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27b3889d395b3cea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "22459e0af3ff54bc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "4613d7c03229b013",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "bb670e04dbb74e30",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "571fceb968fb9e0e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "600a229fc6d0098e",
+  "lastOpenFiles": [
+    "60-Armadilhas/dotnet-10-openapi-numeros-viram-integer-ou-string.md",
+    "70-Sessoes/2026-10-01-btech-nfse-envio-mutacao-testes.md",
+    "Sem título 1.base",
+    "Sem título.canvas",
+    "60-Armadilhas/checkout-local-atras-da-main-e-ref-duplicada-do-icloud.md",
+    "70-Sessoes/2026-10-01-btech-nota-unica-produto-servico-devolucao-importacao.md",
+    "60-Armadilhas/flutter-version-ou-dotnet-runtime-travam-checagem-de-ambiente.md",
+    "70-Sessoes/2026-10-01-eden-validacao-ambiente.md",
+    "Sem título 3.canvas",
+    "70-Sessoes/2026-09-30-btech-nfe-api-testes-sql-server-real.md",
+    "60-Armadilhas/update-forca-idtenant-mas-original-value-move-linha-de-outro-tenant.md",
+    "70-Sessoes/2026-09-30-btech-dtos-cliente-empresa-usuario.md",
+    "70-Sessoes/2026-09-30-btech-cancelamento-cce-inutilizacao.md",
+    "70-Sessoes/2026-09-30-btech-contrato-front-api-e-verificacao-fora-do-icloud.md",
+    "70-Sessoes/2026-09-30-btech-tabelas-oficiais-nfse.md",
+    "70-Sessoes/2026-09-29-btech-tela-certificado-digital.md",
+    "70-Sessoes/2026-09-29-btech-login-turnstile-e-bloqueio-de-conta.md",
+    "70-Sessoes/2026-09-29-btech-nfe-lacunas-frete-cest-nfce.md",
+    "60-Armadilhas/openapi-da-focus-e-subconjunto-use-a-pagina-de-campos.md",
+    "70-Sessoes/2026-09-29-btech-nfse-melhorias.md",
+    "70-Sessoes/2026-09-29-btech-nfse-completa-e-catalogo-de-campos.md",
+    "20-Padroes/apagar-branch-mergeada-por-squash-com-prova.md",
+    "70-Sessoes/2026-09-28-btech-conferencia-fiscal-da-nota.md",
+    "60-Armadilhas/conclusao-tirada-do-schema-sem-olhar-os-dados.md",
+    "30-Decisoes/ajustes-no-armazenamento-do-navegador-sem-pacote.md",
+    "20-Padroes/volante-com-rampa-para-entrada-digital.md",
+    "60-Armadilhas/preview-start-nao-le-documents.md",
+    "70-Sessoes/2026-09-20-rabisco-hub-capas-novas.md",
+    "20-Padroes/teste-de-fisica-no-navegador-com-teston-browser.md",
+    "Sem título 2.canvas",
+    "Sem título.base",
+    "Sem título 1.canvas",
+    "80-Seguranca",
+    "99-Anexos",
+    "91-Memoria-Auto",
+    "90-Sistema/Templates",
+    "90-Sistema",
+    "70-Sessoes",
+    "60-Armadilhas",
+    "50-Stack"
+  ]
+}

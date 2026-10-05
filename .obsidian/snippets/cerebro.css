@@ -1,0 +1,141 @@
+/* ============================================================
+   Cerebro - identidade visual do segundo cerebro
+   Gerado automaticamente. Cores por tipo de conhecimento.
+   ============================================================ */
+
+.theme-light, .theme-dark {
+  --cer-indice:      #64748b;
+  --cer-projeto:     #3b82f6;
+  --cer-padrao:      #22c55e;
+  --cer-decisao:     #a855f7;
+  --cer-preferencia: #ec4899;
+  --cer-stack:       #f97316;
+  --cer-armadilha:   #ef4444;
+  --cer-sessao:      #eab308;
+  --cer-seguranca:   #b91c1c;
+  --cer-sistema:     #94a3b8;
+  --cer-memoria:     #06b6d4;
+}
+
+/* ---------- 1. Pastas coloridas no explorador ---------- */
+
+.nav-folder-title[data-path^="00-Indice"]      { --cer: var(--cer-indice); }
+.nav-folder-title[data-path^="10-Projetos"]    { --cer: var(--cer-projeto); }
+.nav-folder-title[data-path^="20-Padroes"]     { --cer: var(--cer-padrao); }
+.nav-folder-title[data-path^="30-Decisoes"]    { --cer: var(--cer-decisao); }
+.nav-folder-title[data-path^="40-Preferencias"]{ --cer: var(--cer-preferencia); }
+.nav-folder-title[data-path^="50-Stack"]       { --cer: var(--cer-stack); }
+.nav-folder-title[data-path^="60-Armadilhas"]  { --cer: var(--cer-armadilha); }
+.nav-folder-title[data-path^="70-Sessoes"]     { --cer: var(--cer-sessao); }
+.nav-folder-title[data-path^="80-Seguranca"]   { --cer: var(--cer-seguranca); }
+.nav-folder-title[data-path^="90-Sistema"]     { --cer: var(--cer-sistema); }
+.nav-folder-title[data-path^="91-Memoria"]     { --cer: var(--cer-memoria); }
+
+.nav-folder-title[data-path^="00-"],
+.nav-folder-title[data-path^="10-"],
+.nav-folder-title[data-path^="20-"],
+.nav-folder-title[data-path^="30-"],
+.nav-folder-title[data-path^="40-"],
+.nav-folder-title[data-path^="50-"],
+.nav-folder-title[data-path^="60-"],
+.nav-folder-title[data-path^="70-"],
+.nav-folder-title[data-path^="80-"],
+.nav-folder-title[data-path^="90-"],
+.nav-folder-title[data-path^="91-"] {
+  color: var(--cer);
+  font-weight: 600;
+  border-left: 3px solid var(--cer);
+  border-radius: 0 6px 6px 0;
+  padding-left: 6px;
+  background: color-mix(in srgb, var(--cer) 8%, transparent);
+}
+
+.nav-folder-title[data-path^="00-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="10-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="20-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="30-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="40-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="50-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="60-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="70-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="80-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="90-"] .nav-folder-collapse-indicator,
+.nav-folder-title[data-path^="91-"] .nav-folder-collapse-indicator { color: var(--cer); }
+
+/* ---------- 2. Arquivos herdam um tracinho da cor da pasta ---------- */
+
+.nav-file-title[data-path^="00-Indice/"]       { --cer: var(--cer-indice); }
+.nav-file-title[data-path^="10-Projetos/"]     { --cer: var(--cer-projeto); }
+.nav-file-title[data-path^="20-Padroes/"]      { --cer: var(--cer-padrao); }
+.nav-file-title[data-path^="30-Decisoes/"]     { --cer: var(--cer-decisao); }
+.nav-file-title[data-path^="40-Preferencias/"] { --cer: var(--cer-preferencia); }
+.nav-file-title[data-path^="50-Stack/"]        { --cer: var(--cer-stack); }
+.nav-file-title[data-path^="60-Armadilhas/"]   { --cer: var(--cer-armadilha); }
+.nav-file-title[data-path^="70-Sessoes/"]      { --cer: var(--cer-sessao); }
+.nav-file-title[data-path^="80-Seguranca/"]    { --cer: var(--cer-seguranca); }
+.nav-file-title[data-path^="90-Sistema/"]      { --cer: var(--cer-sistema); }
+.nav-file-title[data-path^="91-Memoria-Auto/"] { --cer: var(--cer-memoria); }
+
+.nav-file-title[data-path^="00-Indice/"],
+.nav-file-title[data-path^="10-Projetos/"],
+.nav-file-title[data-path^="20-Padroes/"],
+.nav-file-title[data-path^="30-Decisoes/"],
+.nav-file-title[data-path^="40-Preferencias/"],
+.nav-file-title[data-path^="50-Stack/"],
+.nav-file-title[data-path^="60-Armadilhas/"],
+.nav-file-title[data-path^="70-Sessoes/"],
+.nav-file-title[data-path^="80-Seguranca/"],
+.nav-file-title[data-path^="90-Sistema/"],
+.nav-file-title[data-path^="91-Memoria-Auto/"] {
+  border-left: 2px solid color-mix(in srgb, var(--cer) 55%, transparent);
+  padding-left: 6px;
+}
+
+/* ---------- 3. Tags coloridas (modo leitura) ---------- */
+
+a.tag { border-radius: 999px; padding: 1px 8px; font-size: .82em; font-weight: 600;
+        border: 1px solid transparent; }
+a.tag[href^="#tipo/projeto"]     { --cer: var(--cer-projeto); }
+a.tag[href^="#tipo/padrao"]      { --cer: var(--cer-padrao); }
+a.tag[href^="#tipo/decisao"]     { --cer: var(--cer-decisao); }
+a.tag[href^="#tipo/preferencia"] { --cer: var(--cer-preferencia); }
+a.tag[href^="#tipo/stack"]       { --cer: var(--cer-stack); }
+a.tag[href^="#tipo/armadilha"]   { --cer: var(--cer-armadilha); }
+a.tag[href^="#tipo/sessao"]      { --cer: var(--cer-sessao); }
+a.tag[href^="#tipo/seguranca"]   { --cer: var(--cer-seguranca); }
+a.tag[href^="#seguranca"]        { --cer: var(--cer-seguranca); }
+a.tag[href^="#cerebro/regra"]    { --cer: var(--cer-seguranca); }
+a.tag[href^="#stack/"]           { --cer: var(--cer-stack); }
+a.tag[href^="#cerebro/"]         { --cer: var(--cer-sistema); }
+a.tag[href^="#tipo/"], a.tag[href^="#stack/"], a.tag[href^="#cerebro/"],
+a.tag[href^="#seguranca"] {
+  color: var(--cer);
+  background: color-mix(in srgb, var(--cer) 14%, transparent);
+  border-color: color-mix(in srgb, var(--cer) 35%, transparent);
+}
+
+/* ---------- 4. Barra de cor no topo da nota aberta ---------- */
+
+.workspace-leaf-content[data-type="markdown"] .view-header { border-top: 3px solid transparent; }
+
+/* ---------- 5. Propriedades (frontmatter) mais legiveis ---------- */
+
+.metadata-container { border-left: 3px solid var(--cer-sistema);
+                      background: var(--background-secondary); border-radius: 6px;
+                      padding: 6px 10px; }
+.metadata-property[data-property-key="confianca"] .metadata-property-value { font-weight: 600; }
+
+/* ---------- 6. Cabecalhos das secoes padrao ---------- */
+
+.markdown-preview-view h2, .markdown-rendered h2 {
+  border-bottom: 1px solid var(--background-modifier-border); padding-bottom: 2px;
+}
+
+/* ---------- 7. Painel do Cerebro ---------- */
+
+.cerebro-painel h1 { color: var(--cer-projeto); }
+.cerebro-painel table { width: 100%; }
+
+/* ---------- 8. Grafo: nos maiores para indices ---------- */
+
+.graph-view.color-fill-focused { --graph-color-fill-focused: var(--cer-projeto); }
