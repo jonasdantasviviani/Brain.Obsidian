@@ -7,12 +7,13 @@ atualizado: 2026-10-05
 
 # Indice de Sessoes
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 15:21. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-05 16:13. Nao edite a mao.
 
-89 nota(s) em `70-Sessoes/`.
+90 nota(s) em `70-Sessoes/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[2026-10-05-eden-app-mac-docker]] | Eden | macos, docker, bash | 2026-10-05 |
 | [[2026-10-05-eden-estudo-ata]] | Eden | dotnet, nextjs, ollama, efcore | 2026-10-05 |
 | [[2026-10-05-eden-ux-github-uso-ia]] | Eden | dotnet, nextjs, postgres, ollama, flutter | 2026-10-05 |
 | [[2026-10-04-eden-setup-local-mac]] | Eden | dotnet, nextjs, postgres, docker, flutter | 2026-10-04 |
