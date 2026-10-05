@@ -7,12 +7,14 @@ atualizado: 2026-10-05
 
 # Indice de Armadilhas
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 16:13. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-05 16:54. Nao edite a mao.
 
-80 nota(s) em `60-Armadilhas/`.
+82 nota(s) em `60-Armadilhas/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[cfop-de-entrada-em-nota-de-saida-na-devolucao]] | BTech.NFe.Api, BTech.Web | dotnet, next, focus-nfe | 2026-10-05 |
+| [[download-danfe-xml-focus-url-relativa-virava-operacao-invalida]] | BTech.NFe.Api | dotnet, focus-nfe, httpclient | 2026-10-05 |
 | [[mudar-o-vault-de-lugar-exige-atualizar-5-arquivos]] | Cerebro | claude-code, python, obsidian | 2026-10-05 |
 | [[git-status-trava-com-arquivos-dataless-do-icloud]] | Eden | git, macos, icloud | 2026-10-04 |
 | [[testcontainers-derruba-postgres-do-compose]] | Eden | docker, dotnet | 2026-10-04 |

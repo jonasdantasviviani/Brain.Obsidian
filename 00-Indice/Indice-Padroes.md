@@ -7,12 +7,13 @@ atualizado: 2026-10-05
 
 # Indice de Padroes
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 16:13. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-05 16:54. Nao edite a mao.
 
-35 nota(s) em `20-Padroes/`.
+36 nota(s) em `20-Padroes/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[ref-focus-igual-sequencia-da-nota-e-busca-por-tenant]] | BTech.NFe.Api | dotnet, focus-nfe, multitenant | 2026-10-05 |
 | [[apagar-branch-mergeada-por-squash-com-prova]] | todos | git, github | 2026-09-28 |
 | [[servidor-do-hub-compila-os-jogos-antes-de-subir]] | Rabisco-Hub, RagdollGames | python, flutter, html | 2026-09-22 |
 | [[volante-com-rampa-para-entrada-digital]] | RagdollGames | flutter, dart | 2026-09-20 |

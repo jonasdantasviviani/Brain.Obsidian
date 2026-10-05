@@ -12,7 +12,7 @@ confianca: alta
 
 # Checklist de Seguranca
 
-> Gerado automaticamente em 2026-10-05 16:13 pela auditoria do Cerebro.
+> Gerado automaticamente em 2026-10-05 16:54 pela auditoria do Cerebro.
 > Rastreador por evidencia: **ok = achei sinal**, nao = prova de que esta correto.
 
 ## As 20 regras
@@ -52,7 +52,7 @@ confianca: alta
 | --- | --- | --- | --- | --- |
 | BTech.NFe.Api | dotnet, sql, sqlserver | 15 | **5** | 5 |
 | BTech.Web | next, node | 9 | **1** | 0 |
-| BTech | dotnet, node, sql, sqlserver | 16 | **4** | 5 |
+| BTech | dotnet, node, sql, sqlserver | 18 | **2** | 5 |
 | Eden | dotnet, flutter, node, postg | 14 | **9** | 3 |
 | Heavy | dotnet, flutter, postgres, s | 17 | **6** | 2 |
 | ICook | dotnet, flutter, postgres | 10 | **7** | 1 |
@@ -90,11 +90,10 @@ Regra: [[04-ativar-rls]]
 - **Eden** · CORRIGIR — Postgres sem ROW LEVEL SECURITY no schema
 - **ICook** · CORRIGIR — Postgres sem ROW LEVEL SECURITY no schema
 
-### 05. Criptografia de dados sensíveis — 3 projeto(s)
+### 05. Criptografia de dados sensíveis — 2 projeto(s)
 Regra: [[05-criptografar-dados-sensiveis]]
 
 - **BTech.NFe.Api** · CORRIGIR — cnpj, cpf, rg em claro (000_schema_base.sql, 002_create_eve_manifestacao.sql) - avaliar cripto ou mascaramento
-- **BTech** · CORRIGIR — cnpj, cpf, rg em claro (000_schema_base.sql, 002_create_eve_manifestacao.sql) - avaliar cripto ou mascaramento
 - **Heavy** · CORRIGIR — cartao, cnpj, cpf em claro (20260813005100_Inicial.Designer.cs, 20260813005100_Inicial.cs) - avaliar cripto ou mascaramento
 
 ### 06. Auth server side — 2 projeto(s)
@@ -113,7 +112,7 @@ Regra: [[07-travar-acesso-aos-registros]]
 Regra: [[08-bloquear-mass-assignment]]
 
 - **BTech.NFe.Api** · revisar — [FromBody] com tipo que parece entidade: AliquotasIcmController.cs:AliquotasIcm, AliquotasIcmController.cs:JsonElement, CabEntradaController.cs:CabEntrada, CabEntradaController.cs:JsonElement
-- **BTech** · revisar — [FromBody] com tipo que parece entidade: AliquotasIcmController.cs:AliquotasIcm, CabEntradaController.cs:CabEntrada, CabNotaController.cs:CabNota, CabPedidoController.cs:CabPedido
+- **BTech** · revisar — [FromBody] com tipo que parece entidade: AliquotasIcmController.cs:AliquotasIcm, AliquotasIcmController.cs:JsonElement, CabEntradaController.cs:JsonElement, CabNotaController.cs:JsonElement
 
 ### 10. Hash nas senhas — 3 projeto(s)
 Regra: [[10-hash-nas-senhas]]
@@ -122,12 +121,11 @@ Regra: [[10-hash-nas-senhas]]
 - **Eden** · revisar — ha hash forte, mas MD5/SHA1 aparece em: scripts/seed-demo.sql
 - **Heavy** · CORRIGIR — nao achei algoritmo de hash de senha
 
-### 12. Bot protection — 6 projeto(s)
+### 12. Bot protection — 5 projeto(s)
 Regra: [[12-bot-protection]]
 
 - **BTech.NFe.Api** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
 - **BTech.Web** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
-- **BTech** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
 - **Eden** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
 - **Heavy** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
 - **btech-nfe-web** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
@@ -143,7 +141,7 @@ Regra: [[15-nao-vazar-dados]]
 Regra: [[17-trim-nas-respostas-de-api]]
 
 - **BTech.NFe.Api** · revisar — controller devolvendo tipo sem sufixo Dto: AliquotasIcm→AliquotasIcm, CabEntrada→CabEntrada, CabNota→CabNota, CabPedido→CabPedido
-- **BTech** · revisar — controller devolvendo tipo sem sufixo Dto: AliquotasIcm→AliquotasIcm, CabEntrada→CabEntrada, CabNota→CabNota, CabPedido→CabPedido
+- **BTech** · revisar — controller devolvendo tipo sem sufixo Dto: AdminTenant→EmpresaFocusConfig, AdminTenant→TesteFocusResultado, AliquotasIcm→AliquotasIcm, CabNota→CartaCorrecaoItem
 - **ICook** · CORRIGIR — sem DTO de saida - risco de devolver entidade inteira
 
 ### 18. Adicionar security headers — 1 projeto(s)
