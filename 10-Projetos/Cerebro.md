@@ -17,7 +17,7 @@ confianca: alta
 Sistema de memoria permanente que alimenta e consulta o vault Obsidian automaticamente em todo projeto.
 
 ## Contexto
-Vault em `~/Documents/Cerebro`. Motor em `~/.claude/cerebro/`. Sem dependencias externas:
+Vault em `~/dev/Repos/Brain.Obsidian`. Motor em `~/.claude/cerebro/`. Sem dependencias externas:
 usa apenas `/usr/bin/python3` (3.9) do sistema.
 
 ## Detalhe

@@ -2,12 +2,12 @@
 tipo: indice
 titulo: Indice de Decisoes
 tags: [cerebro/indice, tipo/decisao]
-atualizado: 2026-10-04
+atualizado: 2026-10-05
 ---
 
 # Indice de Decisoes
 
-> Gerado automaticamente pelo Cerebro em 2026-10-04 23:03. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-05 11:49. Nao edite a mao.
 
 26 nota(s) em `30-Decisoes/`.
 

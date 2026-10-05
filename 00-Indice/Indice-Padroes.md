@@ -2,12 +2,12 @@
 tipo: indice
 titulo: Indice de Padroes
 tags: [cerebro/indice, tipo/padrao]
-atualizado: 2026-10-04
+atualizado: 2026-10-05
 ---
 
 # Indice de Padroes
 
-> Gerado automaticamente pelo Cerebro em 2026-10-04 23:03. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-05 11:49. Nao edite a mao.
 
 35 nota(s) em `20-Padroes/`.
 

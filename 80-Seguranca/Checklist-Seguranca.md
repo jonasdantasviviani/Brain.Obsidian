@@ -6,13 +6,13 @@ tags: [tipo/seguranca, cerebro/regra-obrigatoria, seguranca]
 palavras-chave: [seguranca, checklist, auditoria, 20 regras, vulnerabilidade, pendencia, corrigir]
 origem: claude-code
 criado: 2026-09-07
-atualizado: 2026-10-04
+atualizado: 2026-10-05
 confianca: alta
 ---
 
 # Checklist de Seguranca
 
-> Gerado automaticamente em 2026-10-04 23:03 pela auditoria do Cerebro.
+> Gerado automaticamente em 2026-10-05 11:49 pela auditoria do Cerebro.
 > Rastreador por evidencia: **ok = achei sinal**, nao = prova de que esta correto.
 
 ## As 20 regras

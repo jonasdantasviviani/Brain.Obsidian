@@ -2,17 +2,18 @@
 tipo: indice
 titulo: Indice de Projetos
 tags: [cerebro/indice, tipo/projeto]
-atualizado: 2026-10-04
+atualizado: 2026-10-05
 ---
 
 # Indice de Projetos
 
-> Gerado automaticamente pelo Cerebro em 2026-10-04 23:03. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-05 11:49. Nao edite a mao.
 
 13 nota(s) em `10-Projetos/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[Cerebro]] | Cerebro | python, obsidian, claude-code, codex | 2026-09-07 |
 | [[Eden]] | Eden | dotnet, nextjs, postgres, flutter, docker | 2026-10-04 |
 | [[BTech.NFe.Api]] | BTech.NFe.Api | dotnet, csharp, sqlserver, docker, efcore | 2026-09-29 |
 | [[BTech.Web]] | BTech.Web, btech-nfe-web | next, react, typescript, tailwind, playwright | 2026-09-28 |
@@ -25,4 +26,3 @@ atualizado: 2026-10-04
 | [[Sites-Estaticos]] | Sites | html, css, javascript | 2026-09-07 |
 | [[ICook]] | ICook | flutter, dart, dotnet, csharp, postgresql, redis | 2026-09-07 |
 | [[btech-nfe-web]] | btech-nfe-web, BTech.Web | next, react, typescript, tailwind | 2026-09-07 |
-| [[Cerebro]] | Cerebro | python, obsidian, claude-code, codex | 2026-09-07 |

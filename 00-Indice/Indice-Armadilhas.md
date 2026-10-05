@@ -2,17 +2,18 @@
 tipo: indice
 titulo: Indice de Armadilhas
 tags: [cerebro/indice, tipo/armadilha]
-atualizado: 2026-10-04
+atualizado: 2026-10-05
 ---
 
 # Indice de Armadilhas
 
-> Gerado automaticamente pelo Cerebro em 2026-10-04 23:03. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-05 11:49. Nao edite a mao.
 
-79 nota(s) em `60-Armadilhas/`.
+80 nota(s) em `60-Armadilhas/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[mudar-o-vault-de-lugar-exige-atualizar-5-arquivos]] | Cerebro | claude-code, python, obsidian | 2026-10-05 |
 | [[git-status-trava-com-arquivos-dataless-do-icloud]] | Eden | git, macos, icloud | 2026-10-04 |
 | [[testcontainers-derruba-postgres-do-compose]] | Eden | docker, dotnet | 2026-10-04 |
 | [[dotnet-10-openapi-numeros-viram-integer-ou-string]] | Eden | dotnet, openapi, typescript | 2026-10-01 |

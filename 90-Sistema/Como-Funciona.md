@@ -38,7 +38,7 @@ voce escreve um pedido em QUALQUER projeto
 | Regras para todo projeto | `~/.claude/CLAUDE.md` |
 | Regras para o Codex | `~/.codex/AGENTS.md` |
 | Atalho de terminal | `~/.local/bin/cerebro` |
-| Este vault | `~/Documents/Cerebro` |
+| Este vault | `~/dev/Repos/Brain.Obsidian` |
 
 ## Comandos uteis
 
