@@ -7,7 +7,7 @@ atualizado: 2026-10-05
 
 # Indice de Armadilhas
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 11:49. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-05 15:21. Nao edite a mao.
 
 80 nota(s) em `60-Armadilhas/`.
 
