@@ -6,13 +6,13 @@ tags: [tipo/seguranca, cerebro/regra-obrigatoria, seguranca]
 palavras-chave: [seguranca, checklist, auditoria, 20 regras, vulnerabilidade, pendencia, corrigir]
 origem: claude-code
 criado: 2026-09-07
-atualizado: 2026-10-05
+atualizado: 2026-10-06
 confianca: alta
 ---
 
 # Checklist de Seguranca
 
-> Gerado automaticamente em 2026-10-05 16:54 pela auditoria do Cerebro.
+> Gerado automaticamente em 2026-10-06 22:13 pela auditoria do Cerebro.
 > Rastreador por evidencia: **ok = achei sinal**, nao = prova de que esta correto.
 
 ## As 20 regras
@@ -50,7 +50,7 @@ confianca: alta
 
 | Projeto | Stack | ok | corrigir | revisar |
 | --- | --- | --- | --- | --- |
-| BTech.NFe.Api | dotnet, sql, sqlserver | 15 | **5** | 5 |
+| BTech.NFe.Api | dotnet, sql, sqlserver | 19 | **1** | 5 |
 | BTech.Web | next, node | 9 | **1** | 0 |
 | BTech | dotnet, node, sql, sqlserver | 18 | **2** | 5 |
 | Eden | dotnet, flutter, node, postg | 14 | **9** | 3 |
@@ -90,10 +90,9 @@ Regra: [[04-ativar-rls]]
 - **Eden** · CORRIGIR — Postgres sem ROW LEVEL SECURITY no schema
 - **ICook** · CORRIGIR — Postgres sem ROW LEVEL SECURITY no schema
 
-### 05. Criptografia de dados sensíveis — 2 projeto(s)
+### 05. Criptografia de dados sensíveis — 1 projeto(s)
 Regra: [[05-criptografar-dados-sensiveis]]
 
-- **BTech.NFe.Api** · CORRIGIR — cnpj, cpf, rg em claro (000_schema_base.sql, 002_create_eve_manifestacao.sql) - avaliar cripto ou mascaramento
 - **Heavy** · CORRIGIR — cartao, cnpj, cpf em claro (20260813005100_Inicial.Designer.cs, 20260813005100_Inicial.cs) - avaliar cripto ou mascaramento
 
 ### 06. Auth server side — 2 projeto(s)
@@ -111,7 +110,7 @@ Regra: [[07-travar-acesso-aos-registros]]
 ### 08. Bloquear mass assignment — 2 projeto(s)
 Regra: [[08-bloquear-mass-assignment]]
 
-- **BTech.NFe.Api** · revisar — [FromBody] com tipo que parece entidade: AliquotasIcmController.cs:AliquotasIcm, AliquotasIcmController.cs:JsonElement, CabEntradaController.cs:CabEntrada, CabEntradaController.cs:JsonElement
+- **BTech.NFe.Api** · revisar — [FromBody] com tipo que parece entidade: AliquotasIcmController.cs:AliquotasIcm, AliquotasIcmController.cs:JsonElement, CabEntradaController.cs:JsonElement, CabNotaController.cs:JsonElement
 - **BTech** · revisar — [FromBody] com tipo que parece entidade: AliquotasIcmController.cs:AliquotasIcm, AliquotasIcmController.cs:JsonElement, CabEntradaController.cs:JsonElement, CabNotaController.cs:JsonElement
 
 ### 10. Hash nas senhas — 3 projeto(s)
@@ -121,10 +120,9 @@ Regra: [[10-hash-nas-senhas]]
 - **Eden** · revisar — ha hash forte, mas MD5/SHA1 aparece em: scripts/seed-demo.sql
 - **Heavy** · CORRIGIR — nao achei algoritmo de hash de senha
 
-### 12. Bot protection — 5 projeto(s)
+### 12. Bot protection — 4 projeto(s)
 Regra: [[12-bot-protection]]
 
-- **BTech.NFe.Api** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
 - **BTech.Web** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
 - **Eden** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
 - **Heavy** · CORRIGIR — formulario publico sem captcha/turnstile/honeypot
@@ -140,7 +138,7 @@ Regra: [[15-nao-vazar-dados]]
 ### 17. Trim nas respostas de API — 3 projeto(s)
 Regra: [[17-trim-nas-respostas-de-api]]
 
-- **BTech.NFe.Api** · revisar — controller devolvendo tipo sem sufixo Dto: AliquotasIcm→AliquotasIcm, CabEntrada→CabEntrada, CabNota→CabNota, CabPedido→CabPedido
+- **BTech.NFe.Api** · revisar — controller devolvendo tipo sem sufixo Dto: AdminTenant→EmpresaFocusConfig, AdminTenant→TesteFocusResultado, AliquotasIcm→AliquotasIcm, CabNota→CartaCorrecaoItem
 - **BTech** · revisar — controller devolvendo tipo sem sufixo Dto: AdminTenant→EmpresaFocusConfig, AdminTenant→TesteFocusResultado, AliquotasIcm→AliquotasIcm, CabNota→CartaCorrecaoItem
 - **ICook** · CORRIGIR — sem DTO de saida - risco de devolver entidade inteira
 
@@ -173,17 +171,15 @@ Regra: [[24-webhooks-seguros]]
 
 - **Heavy** · revisar — webhook mencionado mas nao localizei o handler
 
-### 25. Ciclo de vida da sessão — 3 projeto(s)
+### 25. Ciclo de vida da sessão — 2 projeto(s)
 Regra: [[25-ciclo-de-vida-da-sessao]]
 
-- **BTech.NFe.Api** · CORRIGIR — JWT valida expiracao mas nao ha revogacao - logout nao invalida o token
 - **Eden** · CORRIGIR — JWT sem ValidateLifetime = true
 - **ICook** · CORRIGIR — JWT sem ValidateLifetime = true
 
-### 26. Trilha de auditoria — 3 projeto(s)
+### 26. Trilha de auditoria — 2 projeto(s)
 Regra: [[26-trilha-de-auditoria]]
 
-- **BTech.NFe.Api** · CORRIGIR — sem trilha de auditoria (log de aplicacao nao substitui)
 - **Heavy** · CORRIGIR — sem trilha de auditoria (log de aplicacao nao substitui)
 - **ICook** · CORRIGIR — sem trilha de auditoria (log de aplicacao nao substitui)
 

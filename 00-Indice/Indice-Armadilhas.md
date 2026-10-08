@@ -2,17 +2,22 @@
 tipo: indice
 titulo: Indice de Armadilhas
 tags: [cerebro/indice, tipo/armadilha]
-atualizado: 2026-10-05
+atualizado: 2026-10-06
 ---
 
 # Indice de Armadilhas
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 16:54. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-06 22:13. Nao edite a mao.
 
-82 nota(s) em `60-Armadilhas/`.
+87 nota(s) em `60-Armadilhas/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[entidade-bool-ativo-nasce-false-vira-tenant-inativo]] | BTech.NFe.Api | dotnet, efcore, testes | 2026-10-06 |
+| [[ef-mesma-linha-rastreada-duas-vezes-nos-testes-de-integracao]] | BTech.NFe.Api | dotnet, efcore, xunit | 2026-10-06 |
+| [[ci-vermelho-testes-desatualizados-fuso-e-collation-na-migracao]] | BTech.NFe.Api | dotnet, sqlserver, xunit | 2026-10-06 |
+| [[devolucao-referencia-so-por-item-e-destinatario-igual-emitente-original]] | BTech.NFe.Api | dotnet, focus-nfe | 2026-10-06 |
+| [[nfe-devolucao-exige-documento-referenciado-por-item]] | BTech.NFe.Api | dotnet, focus-nfe | 2026-10-06 |
 | [[cfop-de-entrada-em-nota-de-saida-na-devolucao]] | BTech.NFe.Api, BTech.Web | dotnet, next, focus-nfe | 2026-10-05 |
 | [[download-danfe-xml-focus-url-relativa-virava-operacao-invalida]] | BTech.NFe.Api | dotnet, focus-nfe, httpclient | 2026-10-05 |
 | [[mudar-o-vault-de-lugar-exige-atualizar-5-arquivos]] | Cerebro | claude-code, python, obsidian | 2026-10-05 |

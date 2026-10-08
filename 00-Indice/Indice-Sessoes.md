@@ -2,17 +2,20 @@
 tipo: indice
 titulo: Indice de Sessoes
 tags: [cerebro/indice, tipo/sessao]
-atualizado: 2026-10-05
+atualizado: 2026-10-06
 ---
 
 # Indice de Sessoes
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 16:54. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-06 22:13. Nao edite a mao.
 
-92 nota(s) em `70-Sessoes/`.
+95 nota(s) em `70-Sessoes/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[2026-10-07-BTech-faturar-movimenta-estoque-financeiro]] | BTech | dotnet, nextjs, sqlserver | 2026-10-07 |
+| [[2026-10-06-BTech-admin-tenant-empresa-perfil]] | BTech | dotnet, nextjs | 2026-10-06 |
+| [[2026-10-05-eden-varrer-projeto-sdd]] | Eden | dotnet, nextjs, postgres | 2026-10-05 |
 | [[2026-10-05-brain-obsidian-registro-btech-notas-focus]] | Brain.Obsidian | dotnet, next | 2026-10-05 |
 | [[2026-10-05-btech-ajustes-notas-focus]] | BTech.NFe.Api, BTech.Web | dotnet, next | 2026-10-05 |
 | [[2026-10-05-eden-app-mac-docker]] | Eden | macos, docker, bash | 2026-10-05 |

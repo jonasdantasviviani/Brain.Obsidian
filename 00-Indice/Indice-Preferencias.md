@@ -2,12 +2,12 @@
 tipo: indice
 titulo: Indice de Preferencias
 tags: [cerebro/indice, tipo/preferencia]
-atualizado: 2026-10-05
+atualizado: 2026-10-06
 ---
 
 # Indice de Preferencias
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 16:54. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-06 22:13. Nao edite a mao.
 
 7 nota(s) em `40-Preferencias/`.
 

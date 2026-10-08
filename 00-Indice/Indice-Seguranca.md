@@ -2,18 +2,18 @@
 tipo: indice
 titulo: Indice de Seguranca
 tags: [cerebro/indice, tipo/seguranca]
-atualizado: 2026-10-05
+atualizado: 2026-10-06
 ---
 
 # Indice de Seguranca
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 16:54. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-06 22:13. Nao edite a mao.
 
 29 nota(s) em `80-Seguranca/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
-| [[Checklist-Seguranca]] | todos | - | 2026-10-05 |
+| [[Checklist-Seguranca]] | todos | - | 2026-10-06 |
 | [[26-trilha-de-auditoria]] | todos | - | 2026-09-07 |
 | [[15-nao-vazar-dados]] | todos | - | 2026-09-11 |
 | [[23-prevenir-ssrf]] | todos | - | 2026-09-11 |

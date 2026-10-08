@@ -2,17 +2,18 @@
 tipo: indice
 titulo: Indice de Padroes
 tags: [cerebro/indice, tipo/padrao]
-atualizado: 2026-10-05
+atualizado: 2026-10-06
 ---
 
 # Indice de Padroes
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 16:54. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-06 22:13. Nao edite a mao.
 
-36 nota(s) em `20-Padroes/`.
+37 nota(s) em `20-Padroes/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[nota-de-entrada-por-xml-analisar-e-importar]] | BTech.NFe.Api, BTech.Web | dotnet, next, sqlserver | 2026-10-06 |
 | [[ref-focus-igual-sequencia-da-nota-e-busca-por-tenant]] | BTech.NFe.Api | dotnet, focus-nfe, multitenant | 2026-10-05 |
 | [[apagar-branch-mergeada-por-squash-com-prova]] | todos | git, github | 2026-09-28 |
 | [[servidor-do-hub-compila-os-jogos-antes-de-subir]] | Rabisco-Hub, RagdollGames | python, flutter, html | 2026-09-22 |

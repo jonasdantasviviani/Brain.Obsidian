@@ -2,17 +2,18 @@
 tipo: indice
 titulo: Indice de Stack
 tags: [cerebro/indice, tipo/stack]
-atualizado: 2026-10-05
+atualizado: 2026-10-06
 ---
 
 # Indice de Stack
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 16:54. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-06 22:13. Nao edite a mao.
 
-8 nota(s) em `50-Stack/`.
+9 nota(s) em `50-Stack/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[cobranca-sicoob-cnab-layouts]] | BTech | dotnet, cnab, sicoob | 2026-10-07 |
 | [[dotnet-10]] | Heavy, BTech.NFe.Api, ICook | dotnet, csharp | 2026-09-28 |
 | [[base-legada-btech-delphi]] | BTech.NFe.Api, BTech.Web | sqlserver, docker | 2026-09-28 |
 | [[flutter]] | Heavy, ICook, Games | flutter, dart | 2026-09-20 |

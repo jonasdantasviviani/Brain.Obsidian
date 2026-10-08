@@ -2,17 +2,18 @@
 tipo: indice
 titulo: Indice de Decisoes
 tags: [cerebro/indice, tipo/decisao]
-atualizado: 2026-10-05
+atualizado: 2026-10-06
 ---
 
 # Indice de Decisoes
 
-> Gerado automaticamente pelo Cerebro em 2026-10-05 16:54. Nao edite a mao.
+> Gerado automaticamente pelo Cerebro em 2026-10-06 22:13. Nao edite a mao.
 
-26 nota(s) em `30-Decisoes/`.
+27 nota(s) em `30-Decisoes/`.
 
 | Nota | Projeto | Stack | Atualizado |
 | --- | --- | --- | --- |
+| [[modulo-contratado-vale-para-todo-o-tenant-no-servidor]] | BTech.NFe.Api | dotnet, aspnetcore, multi-tenant | 2026-10-06 |
 | [[produto-e-servico-num-cadastro-so-com-tipo]] | BTech | dotnet, sqlserver, nextjs | 2026-09-30 |
 | [[certificado-digital-vale-o-da-focus]] | BTech.NFe.Api, BTech.Web | dotnet, next, focus-nfe | 2026-09-30 |
 | [[focus-token-por-empresa-cifrado]] | BTech.NFe.Api, BTech.Web | dotnet, sqlserver, focus-nfe, next | 2026-09-26 |
